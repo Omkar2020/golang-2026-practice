@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
-    fmt.Println("Hello, Golang 2026 Practice!")
+
+	today := time.Now()
+	fmt.Println("Hello, Golang 2026 Practice!")
+	fmt.Println("Today is :", today, "still I am learning Golang")
 }
